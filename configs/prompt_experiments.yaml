@@ -1,0 +1,111 @@
+# Prompt switching experiment configurations
+
+# Experiment presets
+experiments:
+  # Test for maximum artifact visibility
+  high_contrast:
+    name: "High Contrast Prompt Pairs"
+    description: "Prompts with maximum semantic/visual difference to highlight artifacts"
+    prompt_pairs:
+      - ["A serene meditation room with soft lighting", "Explosive action movie scene with fire"]
+      - ["Minimalist black and white geometry", "Psychedelic rainbow fractal patterns"]
+      - ["Quiet library interior", "Heavy metal concert crowd"]
+      - ["Smooth gradient background", "Complex circuit board pattern"]
+      - ["Empty desert landscape", "Dense tropical rainforest"]
+    switch_steps: [10, 15, 20, 25, 30, 35, 40]
+    seeds: [42, 123, 456, 789]
+    
+  # Test for subtle transitions
+  subtle_changes:
+    name: "Subtle Prompt Changes"
+    description: "Similar prompts with minor variations to test artifact sensitivity"
+    prompt_pairs:
+      - ["A red rose in a garden", "A pink rose in a garden"]
+      - ["Sunny day at the beach", "Cloudy day at the beach"]
+      - ["Modern house exterior", "Modern house interior"]
+      - ["Cat sleeping on sofa", "Cat playing on sofa"]
+      - ["Morning coffee cup", "Evening tea cup"]
+    switch_steps: [20, 25, 30]
+    seeds: [42, 123]
+    
+  # Style transfer experiments
+  style_transfer:
+    name: "Same Content, Different Styles"
+    description: "Test how style changes affect artifacts"
+    prompt_pairs:
+      - ["A mountain in photorealistic style", "A mountain in watercolor style"]
+      - ["Portrait in Renaissance style", "Portrait in Pop Art style"]
+      - ["City skyline in architectural drawing", "City skyline in impressionist painting"]
+      - ["Forest scene in Japanese ink painting", "Forest scene in digital art style"]
+      - ["Ocean waves in realistic style", "Ocean waves in abstract style"]
+    switch_steps: [15, 25, 35]
+    seeds: [42, 123, 456]
+    
+  # Frequency content experiments
+  frequency_artifacts:
+    name: "Frequency Content Changes"
+    description: "Test artifacts related to frequency/texture changes"
+    prompt_pairs:
+      - ["Smooth silk fabric texture", "Rough concrete texture"]
+      - ["Calm water surface", "Turbulent water rapids"]
+      - ["Simple color field painting", "Detailed mandala pattern"]
+      - ["Soft focus portrait", "Sharp macro photography"]
+      - ["Blurred motion", "Frozen action shot"]
+    switch_steps: [10, 20, 30, 40]
+    seeds: [42, 123]
+    
+  # Semantic similarity gradient
+  similarity_gradient:
+    name: "Semantic Similarity Gradient"
+    description: "Pairs ordered by increasing semantic distance"
+    prompt_pairs:
+      # Very similar
+      - ["Golden retriever puppy", "Labrador retriever puppy"]
+      - ["Red sports car", "Blue sports car"]
+      # Somewhat similar
+      - ["House cat", "Wild tiger"]
+      - ["Bicycle on road", "Motorcycle on road"]
+      # Different but related
+      - ["Summer forest", "Winter forest"]
+      - ["Modern smartphone", "Vintage rotary phone"]
+      # Very different
+      - ["Arctic glacier", "Sahara desert"]
+      - ["Classical violin", "Electric guitar"]
+    switch_steps: [20, 30]
+    seeds: [42, 123, 456]
+
+# Analysis settings
+analysis:
+  # Artifact detection thresholds
+  thresholds:
+    mean_jump: 0.05
+    norm_jump: 0.1
+    cosine_similarity: 0.85
+    frequency_spike: 2.0  # Standard deviations
+    
+  # Visualization settings
+  visualization:
+    save_intermediate_images: true
+    create_gif_animation: true
+    plot_latent_evolution: true
+    plot_attention_maps: false  # Can be memory intensive
+    
+  # Comparison metrics
+  metrics:
+    - "latent_discontinuity"
+    - "frequency_artifacts"
+    - "attention_shift"
+    - "semantic_coherence"
+
+# Modal settings
+modal:
+  gpu: "a100"  # or "a10g" for cheaper option
+  timeout: 1200
+  memory: 32768  # MB
+
+# Output settings
+output:
+  base_dir: "data/experiments"
+  save_artifacts: true
+  compress_artifacts: false
+  artifact_retention_days: 30

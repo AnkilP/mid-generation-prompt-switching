@@ -1,0 +1,189 @@
+[
+  {
+    "success": true,
+    "prompt_1": "A lion",
+    "prompt_2": "A tiger",
+    "switch_step": 1,
+    "seed": 42,
+    "hf_change": -0.15242772797743476,
+    "artifact_dir": "/artifacts/20251007_090231",
+    "local_image": "data/images/20251007_090231_1_switch.png",
+    "timestamp": "20251007_090231"
+  },
+  {
+    "success": true,
+    "prompt_1": "A lion",
+    "prompt_2": "A tiger",
+    "switch_step": 2,
+    "seed": 42,
+    "hf_change": -0.15562033984396195,
+    "artifact_dir": "/artifacts/20251007_090238",
+    "local_image": "data/images/20251007_090238_2_switch.png",
+    "timestamp": "20251007_090238"
+  },
+  {
+    "success": true,
+    "prompt_1": "A lion",
+    "prompt_2": "A tiger",
+    "switch_step": 3,
+    "seed": 42,
+    "hf_change": -0.1386160767740674,
+    "artifact_dir": "/artifacts/20251007_090245",
+    "local_image": "data/images/20251007_090245_3_switch.png",
+    "timestamp": "20251007_090245"
+  },
+  {
+    "success": true,
+    "prompt_1": "A lion",
+    "prompt_2": "A tiger",
+    "switch_step": 4,
+    "seed": 42,
+    "hf_change": -0.1397372252411313,
+    "artifact_dir": "/artifacts/20251007_090252",
+    "local_image": "data/images/20251007_090252_4_switch.png",
+    "timestamp": "20251007_090252"
+  },
+  {
+    "success": true,
+    "prompt_1": "A lion",
+    "prompt_2": "A tiger",
+    "switch_step": 5,
+    "seed": 42,
+    "hf_change": -0.13901604380872512,
+    "artifact_dir": "/artifacts/20251007_090259",
+    "local_image": "data/images/20251007_090259_5_switch.png",
+    "timestamp": "20251007_090259"
+  },
+  {
+    "success": true,
+    "prompt_1": "A lion",
+    "prompt_2": "A tiger",
+    "switch_step": 6,
+    "seed": 42,
+    "hf_change": -0.15010168962180614,
+    "artifact_dir": "/artifacts/20251007_090305",
+    "local_image": "data/images/20251007_090305_6_switch.png",
+    "timestamp": "20251007_090305"
+  },
+  {
+    "success": true,
+    "prompt_1": "A lion",
+    "prompt_2": "A tiger",
+    "switch_step": 7,
+    "seed": 42,
+    "hf_change": -0.14490386471152306,
+    "artifact_dir": "/artifacts/20251007_090312",
+    "local_image": "data/images/20251007_090312_7_switch.png",
+    "timestamp": "20251007_090312"
+  },
+  {
+    "success": true,
+    "prompt_1": "A lion",
+    "prompt_2": "A tiger",
+    "switch_step": 8,
+    "seed": 42,
+    "hf_change": -0.1431332416832447,
+    "artifact_dir": "/artifacts/20251007_090318",
+    "local_image": "data/images/20251007_090318_8_switch.png",
+    "timestamp": "20251007_090318"
+  },
+  {
+    "success": true,
+    "prompt_1": "A lion",
+    "prompt_2": "A tiger",
+    "switch_step": 9,
+    "seed": 42,
+    "hf_change": -0.1401075441390276,
+    "artifact_dir": "/artifacts/20251007_090325",
+    "local_image": "data/images/20251007_090325_9_switch.png",
+    "timestamp": "20251007_090325"
+  },
+  {
+    "success": true,
+    "prompt_1": "A lion",
+    "prompt_2": "A tiger",
+    "switch_step": 10,
+    "seed": 42,
+    "hf_change": -0.1376917753368616,
+    "artifact_dir": "/artifacts/20251007_090331",
+    "local_image": "data/images/20251007_090331_10_switch.png",
+    "timestamp": "20251007_090331"
+  },
+  {
+    "success": true,
+    "prompt_1": "A lion",
+    "prompt_2": "A tiger",
+    "switch_step": 15,
+    "seed": 42,
+    "hf_change": -0.15087661005201802,
+    "artifact_dir": "/artifacts/20251007_090337",
+    "local_image": "data/images/20251007_090337_15_switch.png",
+    "timestamp": "20251007_090337"
+  },
+  {
+    "success": true,
+    "prompt_1": "A lion",
+    "prompt_2": "A tiger",
+    "switch_step": 20,
+    "seed": 42,
+    "hf_change": -0.16658340891202295,
+    "artifact_dir": "/artifacts/20251007_090343",
+    "local_image": "data/images/20251007_090343_20_switch.png",
+    "timestamp": "20251007_090343"
+  },
+  {
+    "success": true,
+    "prompt_1": "A lion",
+    "prompt_2": "A tiger",
+    "switch_step": 25,
+    "seed": 42,
+    "hf_change": -0.19303153455257416,
+    "artifact_dir": "/artifacts/20251007_090349",
+    "local_image": "data/images/20251007_090349_25_switch.png",
+    "timestamp": "20251007_090349"
+  },
+  {
+    "success": true,
+    "prompt_1": "A lion",
+    "prompt_2": "A tiger",
+    "switch_step": 30,
+    "seed": 42,
+    "hf_change": -0.22946593786279357,
+    "artifact_dir": "/artifacts/20251007_090356",
+    "local_image": "data/images/20251007_090356_30_switch.png",
+    "timestamp": "20251007_090356"
+  },
+  {
+    "success": true,
+    "prompt_1": "A lion",
+    "prompt_2": "A tiger",
+    "switch_step": 35,
+    "seed": 42,
+    "hf_change": -0.28303397979055134,
+    "artifact_dir": "/artifacts/20251007_090402",
+    "local_image": "data/images/20251007_090402_35_switch.png",
+    "timestamp": "20251007_090402"
+  },
+  {
+    "success": true,
+    "prompt_1": "A lion",
+    "prompt_2": "A tiger",
+    "switch_step": 40,
+    "seed": 42,
+    "hf_change": -0.3606301620602608,
+    "artifact_dir": "/artifacts/20251007_090409",
+    "local_image": "data/images/20251007_090409_40_switch.png",
+    "timestamp": "20251007_090409"
+  },
+  {
+    "success": true,
+    "prompt_1": "A lion",
+    "prompt_2": "A tiger",
+    "switch_step": 45,
+    "seed": 42,
+    "hf_change": -0.4606533348560333,
+    "artifact_dir": "/artifacts/20251007_090415",
+    "local_image": "data/images/20251007_090415_45_switch.png",
+    "timestamp": "20251007_090415"
+  }
+]

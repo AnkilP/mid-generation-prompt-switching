@@ -1,0 +1,50 @@
+{
+  "config": {
+    "name": "prompt_switching_experiment",
+    "description": "Prompt switching experiment",
+    "prompt_pairs": [],
+    "switch_steps": [
+      20,
+      30
+    ],
+    "seeds": [
+      42
+    ],
+    "num_inference_steps": 50,
+    "guidance_scale": 7.0,
+    "capture_every_n_steps": 5,
+    "output_dir": "data/experiments",
+    "save_artifacts": true,
+    "run_analysis": true,
+    "analysis_types": [
+      "latent_diff",
+      "spectral"
+    ],
+    "create_visualizations": true,
+    "visualization_types": [
+      "experiment",
+      "comparison",
+      "summary",
+      "grid"
+    ],
+    "gpu_type": "a100",
+    "timeout": 1200
+  },
+  "successful": [],
+  "failed": [
+    {
+      "prompt_1": "A serene mountain lake",
+      "prompt_2": "A stormy ocean",
+      "switch_step": 20,
+      "seed": 42,
+      "error": "Function has not been hydrated with the metadata it needs to run on Modal, because the App it is defined on is not running.",
+      "timestamp": "2025-10-07T02:05:31.268687"
+    }
+  ],
+  "analysis": {},
+  "metadata": {
+    "start_time": "2025-10-07T02:05:30.826064",
+    "end_time": "2025-10-07T02:05:31.268745",
+    "total_experiments": 1
+  }
+}

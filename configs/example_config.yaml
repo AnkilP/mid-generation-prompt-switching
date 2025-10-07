@@ -1,0 +1,34 @@
+# Example configuration for PromptSwitchingTester
+
+# Experiment identification
+name: "artifact_study"
+description: "Comprehensive study of prompt switching artifacts"
+
+# Prompt pairs to test
+prompt_pairs:
+  - ["Serene mountain lake", "Stormy ocean waves"]
+  - ["Minimalist interior", "Maximalist decoration"]
+  - ["Soft pastel colors", "Bold neon colors"]
+  - ["Ancient architecture", "Futuristic buildings"]
+  - ["Realistic portrait", "Abstract face art"]
+
+# When to switch prompts
+switch_steps: [10, 15, 20, 25, 30, 35, 40]
+
+# Random seeds for reproducibility
+seeds: [42, 123, 456]
+
+# Generation parameters
+num_inference_steps: 50
+guidance_scale: 7.0
+capture_every_n_steps: 5
+
+# Output and analysis
+output_dir: "data/experiments/artifact_study"
+save_artifacts: true
+run_analysis: true
+analysis_types: ["latent_diff", "spectral"]
+
+# Modal compute settings
+gpu_type: "a100"
+timeout: 1200

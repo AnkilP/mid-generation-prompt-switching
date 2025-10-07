@@ -1,0 +1,101 @@
+[
+  {
+    "success": true,
+    "prompt_1": "A serene mountain lake",
+    "prompt_2": "A stormy ocean",
+    "switch_step": 5,
+    "seed": 42,
+    "hf_change": -0.28038085169262356,
+    "artifact_dir": "/artifacts/20251007_081951",
+    "local_image": "data/images/20251007_081951_5_switch.png",
+    "timestamp": "20251007_081951"
+  },
+  {
+    "success": true,
+    "prompt_1": "A serene mountain lake",
+    "prompt_2": "A stormy ocean",
+    "switch_step": 10,
+    "seed": 42,
+    "hf_change": -0.3120666816830635,
+    "artifact_dir": "/artifacts/20251007_082003",
+    "local_image": "data/images/20251007_082003_10_switch.png",
+    "timestamp": "20251007_082003"
+  },
+  {
+    "success": true,
+    "prompt_1": "A serene mountain lake",
+    "prompt_2": "A stormy ocean",
+    "switch_step": 15,
+    "seed": 42,
+    "hf_change": -0.3483679266203017,
+    "artifact_dir": "/artifacts/20251007_082008",
+    "local_image": "data/images/20251007_082008_15_switch.png",
+    "timestamp": "20251007_082008"
+  },
+  {
+    "success": true,
+    "prompt_1": "A serene mountain lake",
+    "prompt_2": "A stormy ocean",
+    "switch_step": 20,
+    "seed": 42,
+    "hf_change": -0.3890575071175893,
+    "artifact_dir": "/artifacts/20251007_082014",
+    "local_image": "data/images/20251007_082014_20_switch.png",
+    "timestamp": "20251007_082014"
+  },
+  {
+    "success": true,
+    "prompt_1": "A serene mountain lake",
+    "prompt_2": "A stormy ocean",
+    "switch_step": 25,
+    "seed": 42,
+    "hf_change": -0.43228663206100465,
+    "artifact_dir": "/artifacts/20251007_082019",
+    "local_image": "data/images/20251007_082019_25_switch.png",
+    "timestamp": "20251007_082019"
+  },
+  {
+    "success": true,
+    "prompt_1": "A serene mountain lake",
+    "prompt_2": "A stormy ocean",
+    "switch_step": 30,
+    "seed": 42,
+    "hf_change": -0.47327475249767303,
+    "artifact_dir": "/artifacts/20251007_082024",
+    "local_image": "data/images/20251007_082024_30_switch.png",
+    "timestamp": "20251007_082024"
+  },
+  {
+    "success": true,
+    "prompt_1": "A serene mountain lake",
+    "prompt_2": "A stormy ocean",
+    "switch_step": 35,
+    "seed": 42,
+    "hf_change": -0.503651533808027,
+    "artifact_dir": "/artifacts/20251007_082029",
+    "local_image": "data/images/20251007_082029_35_switch.png",
+    "timestamp": "20251007_082029"
+  },
+  {
+    "success": true,
+    "prompt_1": "A serene mountain lake",
+    "prompt_2": "A stormy ocean",
+    "switch_step": 40,
+    "seed": 42,
+    "hf_change": -0.5130240339785814,
+    "artifact_dir": "/artifacts/20251007_082034",
+    "local_image": "data/images/20251007_082034_40_switch.png",
+    "timestamp": "20251007_082034"
+  },
+  {
+    "success": true,
+    "prompt_1": "A serene mountain lake",
+    "prompt_2": "A stormy ocean",
+    "switch_step": 45,
+    "seed": 42,
+    "hf_change": -0.49672307405206895,
+    "artifact_dir": "/artifacts/20251007_082039",
+    "local_image": "data/images/20251007_082039_45_switch.png",
+    "timestamp": "20251007_082039"
+  }
+]

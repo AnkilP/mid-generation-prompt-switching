@@ -1,0 +1,36 @@
+# Example configuration file for PromptSwitchingTest
+
+# Basic experiment settings
+experiment_name: "my_custom_experiment"
+description: "Testing prompt switching artifacts with custom configuration"
+
+# Prompt pairs to test
+prompt_pairs:
+  - ["A serene mountain lake at sunrise", "A stormy ocean at night"]
+  - ["Minimalist white room", "Cluttered vintage shop"]
+  - ["Soft watercolor flowers", "Sharp geometric patterns"]
+  - ["Calm meditation scene", "Intense sports action"]
+  - ["Simple line drawing", "Complex oil painting"]
+
+# When to switch prompts (step numbers)
+switch_steps: [15, 25, 35]
+
+# Random seeds for reproducibility
+seeds: [42, 123, 456]
+
+# Generation settings
+num_inference_steps: 50
+guidance_scale: 7.0
+capture_every_n_steps: 5
+
+# Analysis settings
+run_analysis: true
+analysis_types: ["latent_diff", "spectral"]
+save_artifacts: true
+
+# Output settings
+output_dir: "data/experiments/custom"
+
+# Modal compute settings
+gpu_type: "a100"  # Options: "a100", "a10g"
+timeout: 1200
