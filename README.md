@@ -156,7 +156,3 @@ The surprising discovery isn't that flow matching/rectified flow models build co
 This has immediate practical implications: effective control of diffusion models requires working with, not against, these implicit constraints. Future work should explore whether we can make these constraints explicit, potentially leading to more controllable architectures.
 
 There are applications: we could run prompts for rules and regulations initially and then switch the prompt later to coding prompts ensuring that code is compliant. 
-
----
-
-*Code and experimental framework available [here](). Experiments conducted using Modal for distributed compute.*
